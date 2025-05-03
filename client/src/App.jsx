@@ -9,6 +9,10 @@ import Login from "./pages/Login";
 import NoPage from "./pages/NoPage"
 import Navbar from "./components/Navbar";
 
+
+{/*import footer*/}
+import Footer from "./components/Footer";
+
 {/*import browser from router*/}
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -31,6 +35,9 @@ export default function App() {
         </Routes>
       </BrowserRouter>
 
+
+      {/*import footer*/}
+      <Footer />
     </>
   );
 }
