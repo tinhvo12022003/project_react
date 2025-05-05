@@ -1,9 +1,13 @@
 import React from "react";
-
-export default function NoPage () {
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+export default function NoPage() {
     return (
         <>
-            <p>This is no page</p>
+            <DotLottieReact
+                src="https://lottie.host/a891132d-4e0c-4600-ae9b-7d8d424d73fe/wBXPRUM6D1.lottie"
+                loop
+                autoplay
+            />
         </>
     );
 }
