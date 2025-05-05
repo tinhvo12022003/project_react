@@ -10,7 +10,7 @@ export default function Navbar() { {/*sticked navbar*/}
         <>
             {/*top margin-20px top-margin-20px*/}
             {/*display auto block < sm; md:grid*/}
-            <nav className="navbar nav-container md:grid grid-cols-3 content-center gap-4 py-5 px-5 block bg-red-700 text-white font-bold sticky top-0">  {/*nav container - 3 columns*/}
+            <nav className="navbar nav-container md:grid grid-cols-3 content-center gap-4 py-5 px-5 block bg-red-700 text-white font-bold sticky top-0 w-full z-50 shadow-xl">  {/*nav container - 3 columns*/}
 
 
                 {/* Left Menu - First columns*/}
@@ -21,9 +21,6 @@ export default function Navbar() { {/*sticked navbar*/}
                 </div>
 
 
-
-
-                {/*center search area*/}
                 {/*center search area*/}
                 <div className="center-search text-center flex justify-center items-center md:flex gap-3 md:w-full p-3 rounded-lg shadow-lg">
                     <form
