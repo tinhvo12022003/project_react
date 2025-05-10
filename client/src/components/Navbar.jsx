@@ -54,19 +54,16 @@ export default function Navbar() { {/*sticked navbar*/}
                     {/*padding between items link*/}
 
                     <li className="py-5">
-                        <Link to="/">Home</Link>
+                        <Link to="/client/about">About</Link>
                     </li>
                     <li className="py-5">
-                        <Link to="/about">About</Link>
+                        <Link to="/client/contact">Contact</Link>
                     </li>
                     <li className="py-5">
-                        <Link to="/contact">Contact</Link>
+                        <Link to="/client/order">Order</Link>
                     </li>
                     <li className="py-5">
-                        <Link to="/order">Order</Link>
-                    </li>
-                    <li className="py-5">
-                        <Link to="/login">
+                        <Link to="/client/login">
                             Login
                         </Link>
                     </li>
